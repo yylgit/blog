@@ -4,6 +4,7 @@
 4. [React Native 中切换TextInput保持键盘展开](./React Native 中切换TextInput保持键盘展开)
 5. [React的生命周期与应用](./React的生命周期与应用)
 6. [Redux 入门](./Redux 入门)
+6. [Redux系列源码解读](./Redux系列源码解读)
 7. [执行上下文](./执行上下文)
 7. [变量对象](./变量对象)
 7. [作用域链](./作用域链)
