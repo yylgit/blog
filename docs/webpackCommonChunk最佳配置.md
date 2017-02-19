@@ -2,7 +2,8 @@
 webpack.optimize.CommonsChunkPlugin插件用于抽取模块中的复用部分，以减少打包的代码量，我们还需要考虑到缓存的优化
 
 首先是文件名包含文件的hash值，只有在文件有变动时hash值才会变
-
+// webpack-dev-server在热替换的时候，不支持 chunkhash
+var hashName = TARGET === "start" ? 'hash': 'chunkhash';
 其次我们想要将引用的js资源进行几个文件的拆分，
 - 第一个文件是最不经常变动的第三方的库文件，
 - 第二个文件是业务的公用组件
