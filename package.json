@@ -1,8 +1,8 @@
 {
-  "name": "overrall-fe",
+  "name": "blog",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "yangyiliang <yangyiliang@didichuxing.com>",
+  "author": "yangyiliang <394720943@qq.com>",
   "private": true,
   "scripts": {
     "server": "NODE_CONFIG_DIR=./server/config node server/index.js",
