@@ -12,7 +12,7 @@
     </div>
     <div class="link">
       <div class="link-btn" @click="gotoDetail(item.url)">
-        内推链接
+        内推申请
       </div>
       
     </div>
@@ -33,13 +33,17 @@ import { mapState , mapMutations} from 'vuex'
     },
     methods: {
       gotoDetail(url) {
-        this.$router.push({
-          name: 'RecruitDetail',
-          query: {
-            url
-          }
-        })
-      }
+        // this.$router.push({
+        //   name: 'RecruitDetail',
+        //   query: {
+        //     url
+        //   }
+        // })
+        location.href = this.pcLink(url);
+      },
+      pcLink: function(url) {
+        return `https://www.nowcoder.com${url}?type=neitui&source=D11190`
+      },
     }
   }
 </script>
