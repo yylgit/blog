@@ -1,30 +1,6 @@
-# blog
+### blog
 
-> A Vue.js project
+github上的博客系统
+github上的博客会读取docs文件夹中的markdown和html文件
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+npm run build的时候是带包到dist文件夹下的，把dist文件夹下的内容拷贝到了docs下
